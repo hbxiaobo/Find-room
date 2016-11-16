@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.success-situation{
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom:0;
+	left:0;
+	background-color: rgba(0,0,0,0.3);
+}
+.success-icon{
+	position: absolute;
+	top:40%;
+	right: 20%;
+	left: 20%;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.success-title{
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.success-select{
+	display: flex;
+
+}
+.success-confirm,.success-cancel{
+	color: #ea5404;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	flex: 1;
+}
+.success-cancel{
+	 border-right: 1px #dbdbdb solid;
+	 color: #444444;
+ }

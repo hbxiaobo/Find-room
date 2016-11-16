@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>details</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1">
+	<link rel="stylesheet" href="../../src/css/bespeak-details.css">
+</head>
+<body>
+	<div class="container">
+		<div class="top"><div id="return"></div>预约详情</div>
+		<div class="content">
+			<p class="man">预约人</p>
+			<div class="man-content">
+				<div class="man-img"></div>
+				<div class="man-text"><p>你才是张三</p><p>租户</p></div>
+				<div class="man-tel"></div>
+			</div>
+			<p class="forms">预约信息</p>
+			<div class="forms-content">
+				<p>华旭国际大厦</p>
+				<table>
+					<tr>
+						<td>区域:黄埔-人民广场</td>
+						<td>房型:商务中心</td>
+					</tr>
+					<tr>
+						<td>面积:766m^</td>
+						<td>单价:&yen;5.5元/m^/天起</td>
+					</tr>
+				</table>
+			</div>
+			<p class="time">预约时间</p>
+			<div class="time-content">2016-08-08</div>
+			<p class="state">预约状态</p>
+			<div class="state-content">
+					<p class="state-date">08/10<br>周三</p><p class="white"></p><p class="state-situation">订单成功</p>
+			</div>
+			<div class="state-content">
+				<p class="state-date">08/08<br>周一</p><p class="white"></p><p class="state-situation">已接单,待看房</p>
+			</div>
+			<div class="state-content">
+				<p class="state-date">08/06<br>周六</p><p class="white"></p><p class="state-situation">等待对方接单</p>
+			</div>
+			<p class="changeTime">更改预约时间</p>
+			<div class="changeTime-content"><input id="changeDate" maxlength="10" type="text" placeholder="2016/08/08"></div>
+			<p style="display: none" class="reason">取消原因(至少选择一项)</p>
+			<div style="display: none" class="reason-content">
+				<div class="reason-select"><input type="checkbox">&nbsp;&nbsp;&nbsp;客户不满意</div>
+				<div class="reason-select"><input type="checkbox">&nbsp;&nbsp;&nbsp;已经联系客户,预约取消</div>
+				<div class="reason-select"><input type="checkbox">&nbsp;&nbsp;&nbsp;其他原因</div>
+				<div class="specific"><input type="text" placeholder="原因"></div>
+
+			</div>
+			<div style="display: none" class="btn"><button>确认</button></div>
+		</div>
+		<div class="select-card">
+			<ul>
+				<li id="changeTime">改期</li>
+				<li id="upload"><a href="">达成</a></li>
+				<li id="cancel">取消</li>
+			</ul>
+		</div>
+	</div>
+	//预约弹窗
+	<div class="bespeak-situation">
+		<div class="bespeak-icon">
+			<p class="bespeak-title">预约只能更改一次,请和客户确认</p>
+			<div class="bespeak-select"><p class="bespeak-cancel">取消</p><p class="bespeak-confirm">确定</p></div>
+		</div>
+	</div>
+	<div class="change-success">
+		<div class="success-icon">
+			<p class="success-title">时间修改成功,记得准时赴约啊</p>
+			<p class="success-confirm">确定</p>
+		</div>
+	</div>
+	//是否打电话弹窗
+	<div class="tel-situation">
+		<div class="release">
+			<p class="tel-title">您确认要拨打电话吗?</p>
+			<div class="tel-select"><p class="tel-cancel">取消</p><p class="tel-confirm">确认</p></div>
+		</div>
+	</div>
+	<div class="Order-cancel">
+		<div class="Order-icon">
+			<p class="Order-title">取消订单成功</p>
+			<p class="Order-confirm">确认</p>
+		</div>
+	</div>
+	<script src="//cdn.bootcss.com/jquery/1.12.2/jquery.min.js"></script>
+	<script src="../../src/js/bespeak-details.js"></script>
+</body>
+</html>

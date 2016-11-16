@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	margin-top: 30px;
+	display: flex;
+}
+.release,.title,.top{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.release{
+	flex: 1;
+	color: #fa3700;
+}
+.return{
+	flex: 1;
+}
+.title{
+	flex: 3;
+	font-size: 1.2rem;
+}
+.content{
+	position: absolute;
+	top: 60px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #dbdbdb;
+	overflow: auto;
+}
+.search-line{
+	display: flex;
+	margin:15px 20px;
+}
+.search{
+	flex: 2;
+	height: 30px;
+	background-color: #ffffff;
+	display: flex;
+}
+.search-icon{
+	background: url("../img/content_search_icon@2x.png") no-repeat center;
+	background-size: 13px;
+	width: 26px;
+}
+.search input{
+	height: 30px;
+	outline: none;
+	border:none;
+}
+.add{
+	flex:1;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: flex;
+	font-size: 0.2rem;
+}
+.add-icon{
+	background: url("../img/content_plus_icon@2x.png") no-repeat center;
+	background-size: 12px;
+	width: 24px;
+}
+.floor-information,.house-inform{
+	background-color: #ffffff;
+	padding: 5px 20px;
+	font-size: 0.2rem;
+	position: relative;
+	margin: 10px 0;
+}
+.floor-information .title,.house-inform .title{
+	background-color: #15b755;
+	width: 5px;height: 5px;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.floor-information p,.house-inform p{
+	font-size: 1rem;
+}
+.floor-information label:not(.length){
+	margin-left: 24px;
+}
+.floor-information input{
+	border: none;
+	border-bottom: 1px solid #dbdbdb;
+	outline: none;
+	margin-left: 5px;
+	width: 75%;
+}
+.select-card{
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid #dbdbdb;
+}
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	background: #fff url('../img/content_nor_icon@2x.png');
+	height: 12px;
+	vertical-align: middle;
+	width: 12px;
+	margin: 10px 0;
+}
+.specific{
+	padding: 5px;
+	color: #dbdbdb;
+	width: 100%;
+}
+.specific input{
+	border: none;
+	background-color: #dbdbdb;
+	outline: none;
+	height: 30px;
+	width: 50%;
+	margin: 5px;
+	border-radius: 5px;
+}
+.Delivery{
+	position: relative;
+}
+.Delivery input{
+	width: 70%;
+}
+.Delivery-status{
+	background:url("../img/content_list_icon01@2x.png") no-repeat center;
+	background-size: 14px 8px;
+	width: 30px;
+	height: 30px;
+	margin-top: 6px;
+	margin-left: -40px;
+	position: absolute;
+}
+.time input{
+	width: 30%;
+}
+.brief-introduction p{
+	position: relative;
+	top: 20px;
+	font-size: 0.2rem;
+}
+.brief-introduction div{
+	position: relative;
+	height: 60px;
+	background-color: #dbdbdb;
+	width: 75%;
+	left: 58px;
+	border-radius: 5px;
+}
+.brief-introduction input{
+	margin-top: 0;
+	background-color: transparent
+}
+.addimg{
+	margin-top: 20px;
+	text-align: center;
+	line-height: 90px;
+	height: 60px;
+	width: 60px;
+	font-size: 0.1rem;
+	color: #727272;
+	background: url("../img/content_plus_icon@2x.png") no-repeat center 10px;
+	background-size: 24px;
+	background-color: #dbdbdb;
+}
+.footer{
+	background-color: #ffffff;
+	padding: 10px 0;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.footer button{
+	background-color: #fa3700;
+	color: #ffffff;
+	width: 98%;
+	display: block;
+	margin: 0 auto;height: 30px;
+	border: none;
+}
+.Release-cancel{
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom:0;
+	left:0;
+	background-color: rgba(0,0,0,0.3);
+	display: none;
+}
+.Release-icon{
+	position: absolute;
+	top:40%;
+	right: 20%;
+	left: 20%;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.Release-title{
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.Release-confirm{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color: #ea5404;
+	font-weight:500;
+}
+
+.bespeak-situation,.change-success{
+	display: none;
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom:0;
+	left:0;
+	background-color: rgba(0,0,0,0.3);
+}
+.bespeak-icon,.success-icon{
+	position: absolute;
+	top:40%;
+	right: 20%;
+	left: 20%;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.bespeak-title,.success-title{
+	font-size: 0.6rem;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.success-confirm{
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #ea5404;
+}
+.bespeak-select{
+	display: flex;
+}
+.bespeak-confirm,.bespeak-cancel{
+	color: #ea5404;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	flex: 1;
+}
+.bespeak-cancel{
+	border-right: 1px #dbdbdb solid;
+	color: #444444;
+}
+/*新增楼盘情况*/
+.add-situation{
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	left: 0;
+	z-index: 999;
+}
+.add-situation div{
+	width:90%;
+	height: 30px;
+	background-color: #ffffff;
+	margin: 10px auto;
+}
+.add-situation input{
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+}
+.add-situation button{
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	color: #fa3700;
+	height: 30px;
+}
