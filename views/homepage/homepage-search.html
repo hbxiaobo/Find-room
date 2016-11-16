@@ -14,7 +14,7 @@
 		<div class="search-la">
 			<input class="search" type="text" placeholder="挑好房，上活力矩阵">
 		</div>
-		<div class="cancel"><a href="">取消</a></div>
+		<div class="cancel"><a href="index.html">取消</a></div>
 		<div class="inform"><p class="search-inform">最近搜索</p><p class="search-reset">清除</p></div>
 		<div class="search-forms">
 			<ul>
@@ -23,5 +23,10 @@
 			</ul>
 		</div>
 	</div>
+	<script>
+	document.getElementsByClassName('search-reset')[0 ].onclick = function(){
+		document.getElementsByClassName('search-forms')[0 ].style.display = 'none';
+	}
+	</script>
 </body>
 </html>
