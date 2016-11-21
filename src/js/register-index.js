@@ -1,1 +1,3 @@
-setTimeout(function(){window.location.href="./views/register/content.html"},1e3);
+setTimeout(function(){
+	window.location.href = 'views/register/content.html';
+},1000);

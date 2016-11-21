@@ -1,0 +1,1 @@
+var ret=document.getElementById("return");ret.onclick=function(){history.go(-1)};

@@ -1,0 +1,1 @@
+for(var tabli=$(".tabs li"),i=0;i<tabli.length;i++)$(tabli[i]).click(function(){$(this).addClass("active"),$(this).siblings().removeClass("active");var i=$(this).attr("id");$(".content-"+i).show(),$(".content-"+i).siblings().hide()});

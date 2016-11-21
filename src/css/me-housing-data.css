@@ -1,1 +1,83 @@
-.bg,.btn{position:absolute;bottom:0;right:0}*{padding:0;margin:0}.bg{top:0;left:0;background-color:#000}.image{background:url(../img/banner_img@2x.png) no-repeat;background-size:contain;width:100%;height:200px}#return{width:15px;height:15px;background:url(../img/nav_back_icon@22x.png) center no-repeat;background-size:contain;position:absolute;top:10px;left:10px}.line,.spec{color:#dbdbdb;display:flex;font-size:.2rem;border-bottom:1px solid #979797;margin:0 5px;padding:0 5px}.one{border-top:1px solid #979797}.line div{flex:1;height:30px;line-height:30px}.line div:nth-child(odd){color:#979797}.one div:nth-child(even){line-height:20px}.line div span{color:#ea5404;font-size:2.8em}.spec div:nth-child(1){flex:1;height:30px;line-height:30px;color:#979797}.spec div:nth-child(2){flex:3;height:30px;line-height:30px}.decoration{font-size:.2rem;color:#979797;margin:10px 15px}.btn{left:0}.btn button{color:#fff;width:100%;border:none;height:30px;background-color:#ea5404;outline:0}
+*{
+	padding: 0;
+	margin: 0;
+}
+.bg{
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color: #000000;
+}
+.image{
+	background: url("../img/banner_img@2x.png") no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 200px;
+}
+#return{
+	width:15px;
+	height:15px;
+	background:url("../img/nav_back_icon@22x.png") no-repeat center;
+	background-size: contain;
+	position: absolute;
+	top:10px;
+	left: 10px;
+}
+.line,.spec{
+	color: #dbdbdb;
+	display: flex;
+	font-size: 0.2rem;
+	border-bottom: 1px solid #979797;
+	margin: 0 5px;
+	padding: 0 5px;
+}
+.one{
+	border-top: 1px solid #979797;
+}
+.line div{
+	flex: 1;
+	height: 30px;
+	line-height: 30px;
+}
+.line div:nth-child(odd){
+	color: #979797;
+}
+.one div:nth-child(even){
+	line-height: 20px;
+}
+.line div span{
+	color: #ea5404;
+	font-size: 2.8em;
+}
+.spec div:nth-child(1){
+	flex: 1;
+	height: 30px;
+	line-height: 30px;
+	color: #979797;
+}
+.spec div:nth-child(2){
+	flex: 3;
+	height: 30px;
+	line-height: 30px;
+}
+.decoration{
+	font-size: 0.2rem;
+	color: #979797;
+	margin: 10px 15px;
+}
+.btn{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.btn button{
+	color: #ffffff;
+	width: 100%;
+	border: none;
+	height: 30px;
+	background-color: #ea5404;
+	outline: none;
+}

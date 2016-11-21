@@ -5,16 +5,21 @@
 	3. javascript,jquery
 	4. ajax
 	5. nodejs静态服务器搭建
-
-* 服务器搭建
-
-		npm install
-
-* 服务器启动
-
-		node app.js
-
-* 浏览器访问
-
-		http://127.0.0.1:9798/index.html
-
+* 下载
+  - `git clone http://github.com/guanjp/autoproject.git`
+* 进入
+  - `cd autoproject`
+* 安装依赖
+  - `npm install`
+* 开发环境
+  - 启动
+    - `gulp`
+  - 访问
+    - `http://127.0.0.1:9800`
+* 部署环境
+  - 构建
+    - `gulp build`
+  - 启动
+    - `node app.js`
+  - 访问
+    - `http://127.0.0.1:16080`

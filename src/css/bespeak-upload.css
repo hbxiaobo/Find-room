@@ -1,1 +1,99 @@
-.upload,.upload-inquiry,.upload-success{right:0;bottom:0;left:0;position:absolute}*{margin:0;padding:0}.top{width:100%;height:30px;text-align:center;line-height:30px;color:#444}#return{float:left;margin-left:5px}#upload{float:right;text-decoration:none;margin-right:5px;color:#ee815a}.upload-img,.upload-text{color:#dbdbdb;text-align:center}.upload{background-color:#f5f5f5;top:30px}.upload-text{margin-top:50px;width:100%}.upload-img{margin:10px auto 20px;width:200px;height:120px;padding:35px;background-color:#818181;line-height:60px;border-radius:10px}.img{background:url(../img/content_icon_plus@2x.png) center no-repeat;width:45px;height:45px;background-size:contain;margin:0 auto -10px}.upload-inquiry,.upload-success{top:0;background-color:rgba(0,0,0,.3);display:none}.success-icon,.upload-icon{position:absolute;top:40%;right:20%;left:20%;background-color:#fff;border-radius:10px}.success-title,.upload-title{text-align:center;height:60px;line-height:60px;border-bottom:1px solid #dbdbdb;font-size:.2rem}.success-confirm,.upload-confirm{text-align:center;height:30px;line-height:30px;color:#ea5404;font-weight:500}.upload-select{display:flex}.upload-cancel,.upload-confirm{color:#ea5404;height:30px;line-height:30px;text-align:center;flex:1}.upload-cancel{border-right:1px #dbdbdb solid;color:#444}
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	width: 100%;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	color: #444444;
+}
+#return{
+	float: left;
+	margin-left: 5px;
+}
+#upload{
+	float: right;
+	text-decoration: none;
+	margin-right: 5px;
+	color: #ee815a;
+}
+.upload{
+	background-color: #f5f5f5;
+	position: absolute;
+	top:30px;
+	right: 0;
+	bottom:0;
+	left: 0;
+}
+.upload-text{
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	color: #dbdbdb;
+}
+.upload-img{
+	color: #dbdbdb;
+	margin: 10px auto 20px;
+	width: 200px;
+	height: 120px;
+	padding: 35px;
+	background-color: #818181;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 10px;
+}
+.img{
+	background: url("../img/content_icon_plus@2x.png") no-repeat center;
+	width: 45px;
+	height: 45px;
+	background-size: contain;
+	margin: 0 auto;
+	margin-bottom: -10px;
+}
+.upload-inquiry,.upload-success{
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom:0;
+	left:0;
+	background-color: rgba(0,0,0,0.3);
+	display: none;
+}
+.upload-icon,.success-icon{
+	position: absolute;
+	top:40%;
+	right: 20%;
+	left: 20%;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.upload-title,.success-title{
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #dbdbdb;
+	font-size: 0.2rem;
+}
+.upload-confirm,.success-confirm{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	color: #ea5404;
+	font-weight:500;
+}
+.upload-select{
+	display: flex;
+}
+.upload-confirm,.upload-cancel{
+	color: #ea5404;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	flex: 1;
+}
+.upload-cancel{
+	border-right: 1px #dbdbdb solid;
+	color: #444444;
+}
