@@ -1,4 +1,4 @@
-#### Find-room
+#### 海鸥租房
 * 涵盖技术
 	1. html/html5
 	2. css/css3
