@@ -6,9 +6,9 @@
 	4. ajax
 	5. nodejs静态服务器搭建
 * 下载
-  - `git clone http://github.com/guanjp/autoproject.git`
+  - `git clone https://github.com/hbxiaobo/Find-room.git`
 * 进入
-  - `cd autoproject`
+  - `cd Find-room`
 * 安装依赖
   - `npm install`
 * 开发环境
