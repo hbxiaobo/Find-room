@@ -34,6 +34,7 @@
 	text-align: center;
 	line-height: 220px;
 	color: #dbdbdb;
+	text-decoration: none;
 }
 .quit{
 	background: url("../img/publish_close_icon@2x.png") no-repeat center;

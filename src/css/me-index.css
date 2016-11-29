@@ -2,12 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	font-size: 8px;
+}
 .top{
 	background-color: #ffffff;
 	text-align: center;
 	width: 100%;
 	height: 30px;
 	line-height: 30px;
+	font-size: 16px;
 }
 .top a{
 	float: right;
@@ -41,6 +45,7 @@
 }
 .one-text{
 	margin-top: 20px;
+	font-size: 14px;
 }
 .one-text p{
 	font-size: 0.2rem;
@@ -48,7 +53,7 @@
 .one-text img{
 	position: absolute;
 	width: 12px;
-	top: 40px;
+	top: 36px;
 	left: 130px;
 }
 .one-more{
@@ -150,33 +155,33 @@
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon04@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .footer .apm{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon03@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .footer .other{
 	margin: 0 auto;
 	width:46px;
 	height: 46px;
 	background: url("../img/bottom_icon05@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 46px;
 }
 .footer .ifm{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon02@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .footer .me{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_press_icon01@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }

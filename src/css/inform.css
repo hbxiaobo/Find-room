@@ -4,6 +4,7 @@
 }
 body{
 	overflow: hidden;
+	font-size: 8px;
 }
 .top{
 	width: 100%;
@@ -57,16 +58,14 @@ body{
 	padding-left: 5px;
 }
 .content-text{
-	font-size: 0.8rem;
 	padding:5px;
 	text-indent: 2em;
 }
 .content-time{
-	font-size: 0.7rem;
 	text-align: right;
 	position: absolute;
 	right: 5px;
-	bottom: 15px;
+	bottom: 20px;
 }
 .footer{
 	height: 50px;
@@ -94,35 +93,35 @@ body{
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon04@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .footer .apm{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon03@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .footer .other{
 	margin: 0 auto;
 	width:46px;
 	height: 46px;
 	background: url("../img/bottom_icon05@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 46px;
 }
 .footer .ifm{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_press_icon02@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .footer .me{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon01@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .content-notice,.content-need{
 	display: none;
@@ -130,7 +129,6 @@ body{
 .title-btn-one,.title-btn-two,.title-btn-three,.title-btn-four{
 	width: 50px;
 	height: 20px;
-	font-size: 0.2rem;
 	line-height: 20px;
 	text-align: center;
 	color: #ffffff;
@@ -161,6 +159,8 @@ body{
 	text-align: center;
 	border-radius: 8px;
 	padding: 5px 2px;
-	font-size: 0.5rem;
 	background-color: #efeff4;
+}
+span{
+	font-size: 8px;
 }

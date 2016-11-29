@@ -4,16 +4,19 @@
 }
 body{
 	overflow: hidden;
+	font-size: 8px;
 }
 .top{
 	width: 100%;
 	height:30px;
 	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
 }
 .container{
 	background-color: #dbdbdb;
 	position: absolute;
-	top:22px;
+	top:30px;
 	right:0;
 	bottom:50px;
 	left:0;
@@ -22,37 +25,34 @@ body{
 }
 .container-content{
 	margin: 10px 0;
-	width: 100%;
 	background-color: #ffffff;
-	height: 100px;
-	padding: 10px;
+	height: 80px;
+	padding: 10px 15px;
 	display: flex;
 	position: relative;
-	left: 0;
 }
 .Orders{
 	position: absolute;
-	right: 40px;
+	right: 15px;
 	bottom:10px;
-	padding: 6px;
+	padding: 2px 15px;
 	background-color: #ea5404;
 	color: #ffffff;
-	font-size: 0.5rem;
 }
 .alre{
 	background-color: #ffffff;
 	color: #000000;
+	padding: 0;
 }
 .content-img{
 	background: url("../img/content_img@2x.png") no-repeat center;
 	background-size: contain;
-	height: 70px;
+	height: 60px;
 	flex: 1;
 }
 .content-text{
 	flex: 2;
-	font-size: 0.9rem;
-	margin:0 20px;
+	margin:0 10px;
 }
 .content-delect{
 	background-color: #fa3700;
@@ -67,13 +67,10 @@ body{
 }
 .text-date{
 	position: absolute;
-	right:10px;
-	font-size: 0.2rem;
-	margin-right: 20px;
+	right:15px;
 }
 .text-time{
 	color: #ea5404;
-	font-size: 0.2rem;
 }
 .footer{
 	height: 50px;
@@ -101,33 +98,33 @@ body{
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon04@2x.png") no-repeat;
-	background-size: contain;
+	background-size: 20px;
 }
 .footer .apm{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_press_icon03@2x.png") no-repeat;
-	background-size: contain;
+	background-size:  20px;
 }
 .footer .other{
 	margin: 0 auto;
 	width:46px;
 	height: 46px;
 	background: url("../img/bottom_icon05@2x.png") no-repeat;
-	background-size: contain;
+	background-size:  contain;
 }
 .footer .ifm{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon02@2x.png") no-repeat;
-	background-size: contain;
+	background-size:  20px;
 }
 .footer .me{
 	margin: 0 auto;
 	width:23px;
 	height: 23px;
 	background: url("../img/bottom_nor_icon01@2x.png") no-repeat;
-	background-size: contain;
+	background-size:  20px;
 }

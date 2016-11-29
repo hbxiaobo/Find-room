@@ -18,7 +18,7 @@
     - `http://127.0.0.1:9800`
 * 部署环境
   - 构建
-    - `gulp install`
+    - `gulp build`
   - 启动
     - `node app.js`
   - 访问

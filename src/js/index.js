@@ -85,12 +85,26 @@ money.click(function(){
 	console.log( $( '.search-money' ).css( 'display' ) );
 	if($('.search-money' ).css('display')=='block'){
 		pso();$('#list-one' ).css({'margin-top':'160px'});
-		$(this ).css({'background':'url("../assets/img/content_icon01_litre@2x.png") no-repeat center','background-size': 'contain'});
+		//$(this).removeClass('money');
+		$('.money' ).css({'background':'url("../../src/img/content_icon01_litre@2x.png") no-repeat center','background-size': 'contain'});
+		$('.money' ).attr('data-price','true');
+		$('.money-text').click(function(){
+			console.log( $( '.money' ).attr( 'data-price' ) );
+			if($('.money').attr('data-price') == 'true'){
+				$(this).text("价格由高到低");
+				$('.money' ).css({'background':'url("../../src/img/content_icon01_down@2x.png") no-repeat center','background-size': 'contain'});
+				$('.money').attr('data-price','false');
+			}else{
+				$(this).text("价格由低到高");
+				$('.money' ).css({'background':'url("../../src/img/content_icon01_litre@2x.png") no-repeat center','background-size': 'contain'});
+				$('.money').attr('data-price','true');
+			}
+
+		});
 	}else{
 		ypso();
-		console.log('sb');
 		$('#list-one' ).attr('style',"margin-top:0");
-		$(this ).css({'background':'url("../assets/img/content_icon01_nor@2x.png") no-repeat center','background-size': 'contain'});
+		$('.money' ).css({'background':'url("../../src/img/content_icon01_nor@2x.png") no-repeat center','background-size': 'contain'});
 	}
 });
 //点击某个选项时其他选项没效果
@@ -123,7 +137,7 @@ $('.container').scroll(function()
 	var scrollTop = $('.container').scrollTop();
 	if( scrollTop > 320 )
 	{
-		$('#money' ).css({'background':'url("../../src/img/content_icon01_nor@2x.png") no-repeat center','background-size': 'contain'});
+		$('.money' ).css({'background':'url("../../src/img/content_icon01_nor@2x.png") no-repeat center','background-size': 'contain'});
 		$('.swiper-container' ).show();
 		$('#list-one' ).attr('style',"margin-top:0");
 		pso();

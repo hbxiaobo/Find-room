@@ -62,7 +62,7 @@ gulp.task('clean', function(opt){
 	del(['./dist'], opt);
 });
 
-gulp.task('default', ['htmlmin','styles','scripts','images']);
+gulp.task('build', ['htmlmin','styles','scripts','images']);
 
 //监听文件变更
 gulp.task('watch', function(){

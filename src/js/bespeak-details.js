@@ -50,6 +50,8 @@ changeTime.click(function(){
 	$(".top" ).text('预约改期') ;
 	$('.changeTime' ).show();
 	$('.changeTime-content' ).show();
+	$('.top-cancel').show();
+	$('.top-confirm').show();
 	$(this ).parent().hide();
 	$('.bespeak-situation' ).show();
 	$('.bespeak-cancel' ).click(function(){
@@ -68,6 +70,7 @@ changeTime.click(function(){
 				$('.change-success' ).show();
 				$('.success-confirm' ).click(function(){
 					$('.change-success' ).hide();
+					window.location.href = '../../views/bespeak/details.html';
 				});
 			}
 		});
